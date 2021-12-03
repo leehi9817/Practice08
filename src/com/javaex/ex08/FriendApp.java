@@ -20,6 +20,7 @@ public class FriendApp {
 			String sLine = sc.nextLine();
 			
 			//공백을 기준으로 문자열 나누어 배열에 넣기
+			//split 메소드는 string 요소가 아니라 배열 자체를 return해준다
 			String[] sArray = sLine.split(" ");
 			
 			//배열에 저장된 값을 이용하여 객체 생성
